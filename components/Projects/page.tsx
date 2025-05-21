@@ -69,6 +69,15 @@ export default function Projects() {
         githubUrl="https://github.com/arthursmarinho/JiraClone"
         projectUrl="https://jira-clone-red.vercel.app/"
       />
+      <ProjectCard
+        imageSrc="/projects/Portfolio.png"
+        altText="Portfolio"
+        tags={["Next/React", "Tailwind", "ChakraUI", "Vercel Deployment"]}
+        description="PortFast, responsive, and accessible. Showcases my projects and skills with clean design and smooth navigation.
+"
+        githubUrl="https://github.com/arthursmarinho/Portfolio"
+        projectUrl="https://portfolio-arthursmarinhos-projects.vercel.app/#/"
+      />
     </div>
   );
 }
