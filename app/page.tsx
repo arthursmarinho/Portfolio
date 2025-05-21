@@ -2,6 +2,7 @@ import Projects from "@/components/Projects/page";
 import { Text, Button } from "@chakra-ui/react";
 import Link from "next/link";
 import Contacts from "@/components/Contacts/page";
+
 export default function Home() {
   return (
     <div>
@@ -10,11 +11,12 @@ export default function Home() {
         className="h-screen text-black flex justify-center items-center flex-col text-center"
       >
         <Text textTransform="uppercase" fontSize="6xl" fontWeight="extrabold">
-          Hey, im Arthur Marinho
+          Ei, sou o Arthur Marinho
         </Text>
         <Text className="text-gray-700" fontSize="2xl" mt={6}>
-          A FullStack focused Web Developer building Websites and Web <br />
-          Applications that leads to the success
+          Desenvolvedor Web FullStack focado em criar Sites e Aplicações Web{" "}
+          <br />
+          que geram resultados de sucesso
         </Text>
         <Link href="#projects">
           <Button
@@ -29,7 +31,7 @@ export default function Home() {
               bg: "yellow.600",
             }}
           >
-            Projects
+            Projetos
           </Button>
         </Link>
       </div>

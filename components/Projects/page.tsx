@@ -1,4 +1,5 @@
 import ProjectCard from "./components/ProjectCard";
+
 export default function Projects() {
   return (
     <div className="grid grid-cols-3 gap-16">
@@ -6,7 +7,7 @@ export default function Projects() {
         imageSrc="/projects/JacketAd.png"
         altText="JacketAd Image"
         tags={["Next/React", "Tailwind", "Vercel Deployment"]}
-        description="Developing tailwind skills."
+        description="Desenvolvendo habilidades com Tailwind."
         githubUrl="https://github.com/arthursmarinho/jacketAd"
         projectUrl="https://jacket-ad.vercel.app/"
       />
@@ -20,7 +21,7 @@ export default function Projects() {
           "Clerk Auth",
           "OnRender Deployment",
         ]}
-        description="Website used in a real environment, with a feature to add books, but only Admins can access this functionality."
+        description="Site utilizado em um ambiente real, com funcionalidade para adicionar livros, acessível apenas para administradores."
         githubUrl="https://github.com/arthursmarinho/EditoraAlabastro"
         projectUrl="https://editoraalabastro.onrender.com/"
       />
@@ -34,7 +35,7 @@ export default function Projects() {
           "ChakraUI",
           "Vercel Deployment",
         ]}
-        description="This application simulates a totem found in fast-food establishments such as Burger King and McDonald's."
+        description="Esta aplicação simula um totem encontrado em restaurantes fast-food como Burger King e McDonald's."
         githubUrl="https://github.com/arthursmarinho/Burgertown"
         projectUrl="https://burgertown-alpha.vercel.app/"
       />
@@ -49,7 +50,7 @@ export default function Projects() {
           "shadcn/ui",
           "OnRender Deployment",
         ]}
-        description="This app uses the Deezer API with a built-in search system. The backend, built with NestJS, handles API requests using Fetch to communicate with Deezer and deliver music data to the frontend."
+        description="Este app utiliza a API do Deezer com um sistema de busca integrado. O backend, feito com NestJS, gerencia as requisições usando Fetch para se comunicar com o Deezer e entregar os dados musicais ao frontend."
         githubUrl="https://github.com/arthursmarinho/Spigify-Front"
         projectUrl="https://spigify-front.onrender.com/dashboard"
       />
@@ -65,7 +66,7 @@ export default function Projects() {
           "Talwind",
           "Vercel Deployment",
         ]}
-        description="A Jira clone built with Next.js and React, styled using Tailwind CSS and Shadcn UI. It features Clerk authentication, uses Neon DB with Prisma ORM, and supports task and board management in a modern full stack setup."
+        description="Um clone do Jira construído com Next.js e React, estilizado com Tailwind CSS e Shadcn UI. Possui autenticação com Clerk, usa Neon DB com Prisma ORM, e permite gerenciamento de tarefas e quadros em um ambiente moderno full stack."
         githubUrl="https://github.com/arthursmarinho/JiraClone"
         projectUrl="https://jira-clone-red.vercel.app/"
       />
@@ -73,8 +74,7 @@ export default function Projects() {
         imageSrc="/projects/Portfolio.png"
         altText="Portfolio"
         tags={["Next/React", "Tailwind", "ChakraUI", "Vercel Deployment"]}
-        description="PortFast, responsive, and accessible. Showcases my projects and skills with clean design and smooth navigation.
-"
+        description="Portfólio rápido, responsivo e acessível. Apresenta meus projetos e habilidades com design limpo e navegação fluida."
         githubUrl="https://github.com/arthursmarinho/Portfolio"
         projectUrl="https://portfolio-arthursmarinhos-projects.vercel.app/#/"
       />

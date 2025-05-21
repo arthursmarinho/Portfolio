@@ -24,10 +24,10 @@ export default function Contacts() {
     <Flex direction="column" align="flex-start" gap={6} p={4}>
       <Toaster />
       <Text color="black" fontSize="8xl" fontWeight="bold">
-        Let's collaborate
+        Trabalhe Comigo
       </Text>
       <Text color="gray.700" fontSize="4xl" mb={2}>
-        Contact me
+        Contatos
       </Text>
       <HStack gap={8}>
         <Link

@@ -36,7 +36,7 @@ export default function ProjectCard({
             <Button>GitHub</Button>
           </Link>
           <Link href={projectUrl} target="_blank">
-            <Button variant="outline">View Project</Button>
+            <Button variant="outline">Ver Projeto</Button>
           </Link>
         </Card.Footer>
       </Flex>

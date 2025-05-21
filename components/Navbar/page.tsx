@@ -16,10 +16,10 @@ export default function NavBar() {
           </Button>
         </Link>
         <Link href="#projects">
-          <Button size="xl">Projects</Button>
+          <Button size="xl">Projetos</Button>
         </Link>
         <Link href="#contacts">
-          <Button size="xl">Contact</Button>
+          <Button size="xl">Contato</Button>
         </Link>
       </div>
     </div>
