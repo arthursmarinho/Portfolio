@@ -20,7 +20,7 @@ export default function Projects() {
           "Clerk Auth",
           "OnRender Deployment",
         ]}
-        description="Website used in a real environment, with a feature to add books, but only users who are logged in can access this functionality."
+        description="Website used in a real environment, with a feature to add books, but only Admins can access this functionality."
         githubUrl="https://github.com/arthursmarinho/EditoraAlabastro"
         projectUrl="https://editoraalabastro.onrender.com/"
       />
