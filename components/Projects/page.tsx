@@ -111,7 +111,7 @@ export default function Projects() {
           imageSrc="/projects/Portfolio.png"
           altText="Portfolio"
           tags={["Next/React", "Tailwind", "ChakraUI", "Vercel Deployment"]}
-          description="Portfólio rápido, responsivo e acessível. Apresenta meus projetos e habilidades com design limpo e navegação fluida."
+          description="Portfólio rápido e acessível. Apresenta meus projetos e habilidades com design limpo e navegação fluida."
           githubUrl="https://github.com/arthursmarinho/Portfolio"
           projectUrl="https://portfolio-arthursmarinhos-projects.vercel.app/#/"
         />
