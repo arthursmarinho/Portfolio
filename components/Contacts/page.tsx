@@ -21,9 +21,19 @@ export default function Contacts() {
   };
 
   return (
-    <Flex direction="column" align="flex-start" gap={6} p={4}>
+    <Flex
+      justifyContent="center"
+      direction="column"
+      align="flex-start"
+      gap={6}
+      p={4}
+    >
       <Toaster />
-      <Text color="black" fontSize="8xl" fontWeight="bold">
+      <Text
+        color="black"
+        fontSize={["6xl", "xl", "xl", "xl"]}
+        fontWeight="bold"
+      >
         Trabalhe Comigo
       </Text>
       <Text color="gray.700" fontSize="4xl" mb={2}>

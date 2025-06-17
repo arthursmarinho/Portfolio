@@ -1,46 +1,62 @@
 import Projects from "@/components/Projects/page";
-import { Text, Button } from "@chakra-ui/react";
+import { Text, Button, Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Contacts from "@/components/Contacts/page";
 
 export default function Home() {
   return (
-    <div>
-      <div
-        id="/"
-        className="h-screen text-black flex justify-center items-center flex-col text-center"
+    <Box as="main">
+      <Box
+        as="section"
+        id="home"
+        className="min-h-screen flex justify-center items-center text-center px-4 sm:px-6 lg:px-8"
       >
-        <Text textTransform="uppercase" fontSize="6xl" fontWeight="extrabold">
-          Ei, sou Arthur Marinho
-        </Text>
-        <Text className="text-gray-700" fontSize="2xl" mt={6}>
-          Desenvolvedor Web FullStack focado em criar Sites e Aplicações Web{" "}
-          <br />
-          que geram resultados de sucesso
-        </Text>
-        <Link href="#projects">
-          <Button
-            mt={12}
-            size="xl"
-            px={20}
-            py={8}
-            fontWeight={700}
+        <Box maxW="4xl">
+          <Text
             textTransform="uppercase"
-            bgColor="yellow.500"
-            _hover={{
-              bg: "yellow.600",
-            }}
+            fontSize={["3xl", "4xl", "5xl", "6xl"]}
+            fontWeight="extrabold"
+            color="black"
           >
-            Projetos
-          </Button>
-        </Link>
-      </div>
-      <div className="h-screen flex justify-center items-center" id="projects">
+            Ei, sou Arthur Marinho
+          </Text>
+
+          <Text fontSize={["md", "lg", "xl", "2xl"]} mt={6} color="gray.600">
+            Desenvolvedor Web FullStack focado em criar Sites e Aplicações Web{" "}
+            <br />
+            que geram resultados de sucesso
+          </Text>
+
+          <Link href="#projects">
+            <Button
+              mt={12}
+              size="lg"
+              px={10}
+              py={6}
+              fontWeight={700}
+              textTransform="uppercase"
+              bgColor="yellow.500"
+              _hover={{
+                bg: "yellow.600",
+              }}
+            >
+              Projetos
+            </Button>
+          </Link>
+        </Box>
+      </Box>
+
+      <Box
+        as="section"
+        id="projects"
+        className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 flex justify-center  "
+      >
         <Projects />
-      </div>
-      <div className="h-screen flex justify-center items-center" id="contacts">
+      </Box>
+
+      <Box as="section" id="contacts" className="py-20 px-4 sm:px-6 lg:px-8">
         <Contacts />
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 }
