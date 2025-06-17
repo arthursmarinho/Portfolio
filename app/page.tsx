@@ -11,7 +11,7 @@ export default function Home() {
         className="h-screen text-black flex justify-center items-center flex-col text-center"
       >
         <Text textTransform="uppercase" fontSize="6xl" fontWeight="extrabold">
-          Ei, sou o Arthur Marinho
+          Ei, sou Arthur Marinho
         </Text>
         <Text className="text-gray-700" fontSize="2xl" mt={6}>
           Desenvolvedor Web FullStack focado em criar Sites e Aplicações Web{" "}
