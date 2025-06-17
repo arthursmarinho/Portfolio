@@ -4,6 +4,7 @@ import "./globals.css";
 import { Inter, Roboto_Mono } from "next/font/google";
 import NavBar from "@/components/Navbar/page";
 const inter = Inter({ subsets: ["latin"] });
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Arthur WebDev",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Provider>
           <NavBar />
           {children}
+          <Analytics />
         </Provider>
       </body>
     </html>
