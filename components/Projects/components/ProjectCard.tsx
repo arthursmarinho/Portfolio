@@ -20,7 +20,15 @@ export default function ProjectCard({
   description,
 }: ProjectCardProps) {
   return (
-    <Card.Root maxW="sm" overflow="hidden" bgColor="#28272A">
+    <Card.Root
+      maxW="sm"
+      h="500px"
+      display="flex"
+      flexDirection="column"
+      justifyContent="space-between"
+      bgColor="#28272A"
+      overflow="hidden"
+    >
       <Image src={imageSrc} alt={altText} width={500} height={500} />
       <Flex gap={2} p={4} wrap="wrap">
         {tags.map((tag, index) => (

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Provider } from "@/components/ui/provider";
 import "./globals.css";
-import { Inter, Roboto_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import NavBar from "@/components/Navbar/page";
 const inter = Inter({ subsets: ["latin"] });
 import { Analytics } from "@vercel/analytics/next";
