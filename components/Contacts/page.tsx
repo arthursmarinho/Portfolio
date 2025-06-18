@@ -31,7 +31,7 @@ export default function Contacts() {
       <Toaster />
       <Text
         color="black"
-        fontSize={["6xl", "xl", "xl", "xl"]}
+        fontSize={["6xl", "2xl", "8xl", "8xl"]}
         fontWeight="bold"
       >
         Trabalhe Comigo
