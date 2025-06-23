@@ -49,7 +49,7 @@ export default function Home() {
       <Box
         as="section"
         id="projects"
-        className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 flex justify-center  "
+        className="py-20 px-4 sm:px-6 lg:px-8  flex justify-center  "
       >
         <Projects />
       </Box>
