@@ -5,11 +5,11 @@ import Contacts from "@/components/Contacts/page";
 
 export default function Home() {
   return (
-    <Box as="main" w="svh">
+    <Box as="main">
       <Box
         as="section"
         id="home"
-        className="min-h-screen flex justify-center items-center text-center px-4 sm:px-6 lg:px-8"
+        className="min-h-screen flex justify-center w-screen items-center text-center px-4 sm:px-6 lg:px-8"
       >
         <Box maxW="4xl">
           <Text
