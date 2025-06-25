@@ -5,7 +5,7 @@ import Contacts from "@/components/Contacts/page";
 
 export default function Home() {
   return (
-    <Box as="main">
+    <Box as="main" w="svh">
       <Box
         as="section"
         id="home"
