@@ -22,7 +22,7 @@ export default function ProjectCard({
   return (
     <Card.Root
       maxW="sm"
-      h="500px"
+      h="600px"
       display="flex"
       flexDirection="column"
       justifyContent="space-between"

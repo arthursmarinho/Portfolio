@@ -27,12 +27,26 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <div onClick={() => handleClick("JacketAd")}>
           <ProjectCard
-            imageSrc="/projects/JacketAd.png"
-            altText="JacketAd Image"
-            tags={["Next/React", "Tailwind", "Vercel Deployment"]}
-            description="Desenvolvendo habilidades com Tailwind."
-            githubUrl="https://github.com/arthursmarinho/jacketAd"
-            projectUrl="https://jacket-ad.vercel.app/"
+            imageSrc="/projects/Frendz.png"
+            altText="Frendx Image"
+            tags={[
+              "Next/React",
+              "NestJs",
+              "Axios",
+              "Prisma",
+              "PostgreSQL",
+              "NeonDB",
+              "Class Validator",
+              "Redux",
+              "Firebase Auth",
+              "shadcn/ui",
+              "Responsível",
+              "Tailwind",
+              "OnRender Deployment",
+            ]}
+            description="Frendz é uma rede social com autenticação de usuários, onde é possível visualizar o próprio perfil, publicar textos e navegar de forma responsiva em dispositivos móveis.."
+            githubUrl="https://github.com/arthursmarinho/Frendz-Front"
+            projectUrl="https://frendz-front.onrender.com"
           />
         </div>
 
@@ -107,14 +121,14 @@ export default function Projects() {
           />
         </div>
 
-        <div onClick={() => handleClick("Portfolio")}>
+        <div onClick={() => handleClick("JacketAd")}>
           <ProjectCard
-            imageSrc="/projects/Portfolio.png"
-            altText="Portfolio"
-            tags={["Next/React", "Tailwind", "ChakraUI", "Vercel Deployment"]}
-            description="Portfólio rápido e acessível. Apresenta meus projetos e habilidades com design limpo e navegação fluida."
-            githubUrl="https://github.com/arthursmarinho/Portfolio"
-            projectUrl="https://portfolio-arthursmarinhos-projects.vercel.app/#/"
+            imageSrc="/projects/JacketAd.png"
+            altText="JacketAd Image"
+            tags={["Next/React", "Tailwind", "Vercel Deployment"]}
+            description="Desenvolvendo habilidades com Tailwind."
+            githubUrl="https://github.com/arthursmarinho/jacketAd"
+            projectUrl="https://jacket-ad.vercel.app/"
           />
         </div>
       </div>
