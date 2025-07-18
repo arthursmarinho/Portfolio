@@ -121,14 +121,25 @@ export default function Projects() {
           />
         </div>
 
-        <div onClick={() => handleClick("JacketAd")}>
+        <div onClick={() => handleClick("Talents")}>
           <ProjectCard
-            imageSrc="/projects/JacketAd.png"
-            altText="JacketAd Image"
-            tags={["Next/React", "Tailwind", "Vercel Deployment"]}
-            description="Desenvolvendo habilidades com Tailwind."
-            githubUrl="https://github.com/arthursmarinho/jacketAd"
-            projectUrl="https://jacket-ad.vercel.app/"
+            imageSrc="/projects/Talents.png"
+            altText="Talents Image"
+            tags={[
+              "Next/React",
+              "Prisma",
+              "PostgreSQL",
+              "Firebase Auth",
+              "Firestore",
+              "Zod",
+              "Axios",
+              "Tailwind",
+              "shadcn/ui",
+              "Vercel Deployment",
+            ]}
+            description="O projeto Talents oferece uma plataforma acessível e responsiva para empresas e candidatos. Empresas podem criar e gerenciar vagas, enquanto candidatos se cadastram, visualizam oportunidades e enviam currículos em PDF. O sistema inclui login com e-mail, redefinição de senha e controle de candidaturas pelas empresas."
+            githubUrl="https://github.com/arthursmarinho/Talents-Front"
+            projectUrl="https://talents-front.vercel.app/"
           />
         </div>
       </div>
