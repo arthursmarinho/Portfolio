@@ -45,6 +45,19 @@ export default function Home() {
           </Link>
         </Box>
       </Box>
+      <div className="flex justify-center items-center px-4 sm:px-6 lg:px-8 py-16 ">
+        <div className="max-w-4xl text-center">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-800 leading-relaxed">
+            Recrutador ou visualizador, como os projetos são hospedados em
+            plataformas gratuitas, pode levar alguns segundos para carregar.
+            <br className="hidden sm:block" />
+            Como alguns projetos contém back-end, o projeto pode não funcionar
+            corretamente quando você realizar alguma ação.
+            <br />É necessário que você espere um pouco para que o back-end
+            acorde.
+          </h1>
+        </div>
+      </div>
 
       <Box
         as="section"
