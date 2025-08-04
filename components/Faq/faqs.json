@@ -1,22 +1,7 @@
 [
   {
-    "question": "What if I just had renovation work done?",
-    "answer": ""
-  },
-  {
-    "question": "Do I get a discount if I'm a frequent customer?",
-    "answer": ""
-  },
-  {
-    "question": "Can I give specific instructions to the cleaners and ask for special requests?",
-    "answer": "Yes, special instructions can be left for the cleaning professional when you schedule your appointment online. After the clean is complete, you can rate your MyClean experience and update your special instructions if you want something cleaned differently."
-  },
-  {
-    "question": "What if I don’t have a mop, bucket, or vacuum?",
-    "answer": ""
-  },
-  {
-    "question": "Do you clean offices and other commercial spaces?",
-    "answer": ""
+    "id": 1,
+    "question": "Por que você não utiliza sites para fazerem pings em seus projetos, Assim os mantendo 'acordados'?",
+    "answer": "Por fazer isso, os planos dos sites de deploy como OnRender e de banco de dados como NeonDB atingem seu limite mensal, fazendo com que meus projetos fiquem fora do ar, o que já me prejudicou muitas vezes."
   }
 ]

@@ -1,7 +1,10 @@
 import Projects from "@/components/Projects/page";
-import { Text, Button, Box } from "@chakra-ui/react";
+import { Text, Box } from "@chakra-ui/react";
 import Link from "next/link";
 import Contacts from "@/components/Contacts/page";
+import Message from "@/components/Message/page";
+import Faq from "@/components/Faq/page";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -28,37 +31,13 @@ export default function Home() {
           </Text>
 
           <Link href="#projects">
-            <Button
-              mt={12}
-              size="lg"
-              px={10}
-              py={6}
-              fontWeight={700}
-              textTransform="uppercase"
-              bgColor="yellow.500"
-              _hover={{
-                bg: "yellow.600",
-              }}
-            >
+            <Button className="!mt-12 !text-black !bg-yellow-500 !px-12  rounded-2xl">
               Projetos
             </Button>
           </Link>
         </Box>
       </Box>
-      <div className="flex justify-center items-center px-4 sm:px-6 lg:px-8 py-16 ">
-        <div className="max-w-4xl text-center">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-800 leading-relaxed">
-            Recrutador ou visualizador, como os projetos são hospedados em
-            plataformas gratuitas, pode levar alguns segundos para carregar.
-            <br className="hidden sm:block" />
-            Como alguns projetos contém back-end, o projeto pode não funcionar
-            corretamente quando você realizar alguma ação.
-            <br />É necessário que você espere um pouco para que o back-end
-            acorde.
-          </h1>
-        </div>
-      </div>
-
+      <Message />
       <Box
         as="section"
         id="projects"
@@ -66,6 +45,7 @@ export default function Home() {
       >
         <Projects />
       </Box>
+      <Faq />
 
       <Box as="section" id="contacts" className="py-20 px-4 sm:px-6 lg:px-8">
         <Contacts />

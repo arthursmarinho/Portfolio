@@ -10,20 +10,16 @@ import faqs from "./faqs.json";
 
 export default function Faq() {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-b from-[#d4f2ef] to-white">
+    <div className="min-h-screen flex items-center justify-center px-4">
       <div className="max-w-2xl w-full">
-        <h1 className="text-4xl font-bold text-center mb-2 text-gray-800">
-          Questions? Look here.
+        <h1 className="!text-4xl font-bold text-center  text-gray-800 !mb-12">
+          Perguntas? Olhe aqui.
         </h1>
-        <p className="text-center text-gray-600 mb-6">
-          Can’t find an answer? Call us at (855) 692-5326 or email
-          contact@myclean.com!
-        </p>
 
         <Accordion type="single" collapsible className="w-full">
-          {faqs.map((faq, index) => (
-            <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-left text-lg">
+          {faqs.map((faq) => (
+            <AccordionItem key={faq.id} value={`item-${faq.id}`}>
+              <AccordionTrigger className="!bg-gray-400/50 !p-4 text-left !text-lg !text-black !mb-6">
                 {faq.question}
               </AccordionTrigger>
               {faq.answer && (
